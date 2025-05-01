@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>SimpleBEX - Serverless BabylonJS Runtime</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: #000000;
+    }
+    #renderCanvas {
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+    }
+    #loadingScreen {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #000000;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 100;
+      transition: opacity 1s ease;
+    }
+    #loadingBar {
+      width: 30%;
+      height: 5px;
+      background-color: #222;
+      margin-top: 20px;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    #loadingProgress {
+      height: 100%;
+      background-color: #3498db;
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <div id="loadingScreen">
+    <div>Loading SimpleBEX</div>
+    <div id="loadingBar">
+      <div id="loadingProgress"></div>
+    </div>
+  </div>
+  <canvas id="renderCanvas"></canvas>
+
+  <!-- Import BabylonJS from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/babylonjs@7.0.0/babylon.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/babylonjs-materials@7.0.0/babylonjs.materials.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/babylonjs-loaders@7.0.0/babylonjs.loaders.min.js"></script>
+  
+  <!-- Application scripts, using ES modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
