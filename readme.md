@@ -1,7 +1,9 @@
+![](readme/header.png)
+
 # Meridian 2.0 released
 ### From thought to reality in the fastest way possible!
 
-![](readme/image5.png)
+![](readme/image_e.png)
 
 Meridian is a free and open-source Blender addon that bridges Blender and Godot by turning your .blend file into a fully wired Godot project.
 
@@ -11,7 +13,7 @@ Essentially what it does, is taking everything from meshes, lighting, scripts, d
 
 ## What is Meridian
 
-![](readme/image2.png)
+![](readme/image_b.png)
 
 Most Blender-to-Godot exporters stop at the mesh. You essentially just export a .glb file, drop it into Godot, then spend the next hour manually recreating your lights, setting up materials, wiring scripts and more.
 
@@ -21,22 +23,22 @@ Meridian handles the whole thing. It initializes a Godot project, compiles a sce
 ### Full scene compilation, not just mesh export
 Meridian writes the Godot .tscn scene file directly. Cameras, lights, reflection probes, decals, collision shapes, render layers, and LOD settings are all exported as proper Godot nodes - not left for you to rebuild.
 
-![](readme/image3.png)
+![](readme/image_c.png)
 
 ### One-click project initialization
 Meridian creates a ready-to-run Godot project from scratch: project.godot, folder structure, renderer settings, anti-aliasing, scaling, and platform configuration. Switch to XR and it enables OpenXR and adjusts the physics tick rate automatically.
 
-![](readme/image10.png)
+![](readme/image_j.png)
 
 ### Baked lightmap pipeline
 
-![](readme/image8.png)
+![](readme/image_h.png)
 
 Meridian integrates with newest version of The Lightmapper addon (another addon of mine, originally made for Armory3D). Bake in Blender, run Compile, and your HDR lightmaps are copied to the Godot project and automatically applied to the right mesh instances via a bundled Godot editor plugin and custom shaders — no manual assignment needed. 
 
 ### Postprocess effects
 
-![](readme/image12.png)
+![](readme/image_l.png)
 
 New postprocess effects included in Meridian:
 - Chromatic Aberration: Simulate optical distortion for cinematic effects
