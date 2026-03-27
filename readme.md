@@ -1,6 +1,6 @@
 ![](readme/header.png)
 
-[Download](https://github.com/Naxela/Meridian/releases) • [Website (Soon)] • [Documentation (Soon)] • Demo Scenes (Soon) • [The Lightmapper](https://github.com/Naxela/The_Lightmapper)
+[Download](https://github.com/Naxela/Meridian/releases) • [Website](https://naxela.github.io/Meridian_Web/) • [Documentation (Soon)] • Demo Scenes (Soon) • [The Lightmapper](https://github.com/Naxela/The_Lightmapper)
 
 # Meridian 2.0 released
 ### From thought to reality in the fastest way possible!
@@ -163,3 +163,4 @@ Aaaaaand a few more things:
 - More documentation
 - More demo scenes
 - and more planned!
+
