@@ -1,5 +1,7 @@
 ![](readme/header.png)
 
+[Download](https://github.com/Naxela/Meridian/releases) • [Website (Soon)] • [Documentation (Soon)] • Demo Scenes (Soon) • [The Lightmapper](https://github.com/Naxela/The_Lightmapper)
+
 # Meridian 2.0 released
 ### From thought to reality in the fastest way possible!
 
@@ -28,7 +30,7 @@ Meridian writes the Godot .tscn scene file directly. Cameras, lights, reflection
 ### One-click project initialization
 Meridian creates a ready-to-run Godot project from scratch: project.godot, folder structure, renderer settings, anti-aliasing, scaling, and platform configuration. Switch to XR and it enables OpenXR and adjusts the physics tick rate automatically.
 
-![](readme/image_j.png)
+![](readme/image_j.png) ![](readme/image_m.png)
 
 ### Baked lightmap pipeline
 
@@ -49,6 +51,8 @@ New postprocess effects included in Meridian:
 
 ### LiveLink
 Move, rotate, or scale any object in Blender and it updates in Godot instantly over a local socket connection. No re-export needed for layout and positioning work.
+
+![](readme/vid_a.webp)
 
 ### Scripting
 Attach GDScript files (custom or bundled) to any object directly in Blender's properties panel. Scripts are copied to your Godot project and wired to the correct nodes on export.
@@ -103,6 +107,7 @@ Package your Godot project for Windows, Web, or Android from inside Blender usin
 - Publish to Windows, Web, Android via headless Godot
 - Automatic export template download if missing
 - Clean project operator (removes generated files)
+- and more!
 
 ### Basic Workflow
 
@@ -118,8 +123,43 @@ Package your Godot project for Windows, Web, or Android from inside Blender usin
 
 | | |
 |---|---|
-| Blender | 4.5 or newer |
-| Godot | 4.6 |
+| <span style="color: rgb(255, 145, 0)">Blender</span> | 4.5 or newer |
+| <span style="color: rgb(0, 140, 255)"> Godot </span> | 4.6 |
 | OS | Windows, macOS, Linux |
 
 Install it like any other addon, point to the Godot executable in the preferences settings.
+
+## Videos
+
+[![Watch the video](https://img.youtube.com/vi/EOFUH7zS-DA/maxresdefault.jpg)](https://www.youtube.com/watch?v=EOFUH7zS-DA)
+[![Watch the video](https://img.youtube.com/vi/kDevuNyV-DA/maxresdefault.jpg)](https://www.youtube.com/watch?v=kDevuNyV-DA) [![Watch the video](https://img.youtube.com/vi/tpXq7rIZvfk/maxresdefault.jpg)](https://www.youtube.com/watch?v=tpXq7rIZvfk)
+
+## What's next? The roadmap to Meridian 3.0
+
+There's a lot of exciting plans for the next iteration of Meridian! Some of this stuff have been long underway (some of it dates way back), but I'm finally wrapping it up for the next version:
+
+#### Integrated Asset "Store" (Kiosk)
+![](readme/mx3_d.jpg)
+
+#### VBAO: Variable Bitmask Ambient Occlusion
+![](readme/mx3_c.jpg)
+
+#### Environment Skies
+![](readme/mx3_b.png)
+
+#### Planetary Atmospheres
+![](readme/mx3_a.png)
+
+#### Visual Scripting
+![](readme/mx3_e.jpg)
+
+Aaaaaand a few more things:
+
+- Tilt Shader
+- Lightmap atlas (Using LightmapGI)
+- Script parameters
+- Area3D and CollisionShape3D support
+- Texture filtering (Nearest, Bilinear, Trilinear, Anisotropic)
+- More documentation
+- More demo scenes
+- and more planned!
