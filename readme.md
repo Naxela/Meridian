@@ -2,6 +2,8 @@
 
 [Download](https://github.com/Naxela/Meridian/releases) • [Website](https://naxela.github.io/Meridian_Web/) • [Documentation (Soon)] • Demo Scenes (Soon) • [The Lightmapper](https://github.com/Naxela/The_Lightmapper)
 
+*If you need help, you're more than welcome to add me on Discord at naxelakleemann (#7255) or send me an email. Especially since the documentation is still non-existent.*
+
 # Meridian 2.0 released
 ### From thought to reality in the fastest way possible!
 
